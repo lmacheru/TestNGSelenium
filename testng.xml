@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Testing" parallel="tests">
+<test name="Firefox testing">
+	<parameter name="BrowserType" value="firefox"></parameter>
+	<classes>
+		<class name="com.gui.co.za.test.nolo_Apply"/>
+	</classes>
+</test>
+<test name="Chrome testing">
+	<parameter name="BrowserType" value="chrome"></parameter>
+	<classes>
+		<class name="com.gui.co.za.test.nolo_Apply"/>
+	</classes>
+</test>
+
+</suite>
