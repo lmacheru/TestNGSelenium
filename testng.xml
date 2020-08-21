@@ -14,5 +14,11 @@
 		<class name="com.gui.co.za.test.nolo_Apply"/>
 	</classes>
 </test>
-
+	<!--You can uncomment below so that you can run 3 browsers at the same time -->
+	<!-- <test name="IE testing">
+	<parameter name="BrowserType" value="ie"></parameter>
+	<classes>
+		<class name="com.gui.co.za.test.nolo_Apply"/>
+	</classes>
+</test> -->
 </suite>
